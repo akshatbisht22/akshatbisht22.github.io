@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(0, 0, 20);
+}
+
+
+#suggestlink{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+}
+
+#suggestlink a {
+    margin: 5px 0px;
+}
+
+#suggestlink a img{
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#app{
+    padding: 0px 180px;
+}
+
+
+#header{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#headerlogoimg{
+    height: 55px;
+}
+
+#headerlinks{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#headerlinks a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(194, 194, 225);
+    margin: 0px 15px;
+}
+
+#headerlinks a:nth-child(2){
+    margin-right: 0px;
+}
+
+#mainintro{
+    padding: 0px 20px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#mainintrotxt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#mainintrotxt p:nth-child(1){
+    color: rgb(194, 194, 225);
+    margin-bottom: 4px;
+}
+
+#mainintrotxt h2{
+    font-size: 40px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#mainintrotxt p:nth-child(3){
+    font-size: 17px;
+    color: rgb(114, 114, 255);
+}
+
+#mainintroimg{
+    display: flex;
+    align-items: center;
+}
+
+#mainintroimg img{
+    height: 190px;
+}
+
+
+#about{
+    margin-top: 150px;
+}
+
+#abouthead h2{
+    color: rgb(190, 190, 255);
+    font-weight: 100;
+}
+
+#aboutbody p{
+    line-height: 23px;
+}
+
+
+#aboutbody p{
+    color: rgb(255, 255, 255);
+}
+
+
+#aboutbodylanguages{
+    margin-top: 30px;
+}
+
+#aboutbodysoftwares{
+    margin-top: 50px;
+}
+
+#aboutbodygames{
+    margin-top: 50px;
+}
+
+
+#aboutbodymusic{
+    margin-top: 50px;
+}
+
+
+#aboutbodylanguagesimg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+    
+
+#aboutbodylanguagesimg::-webkit-scrollbar{
+    background: rgb(0, 0, 20);
+    height: 5px;
+}
+
+#aboutbodylanguagesimg::-webkit-scrollbar-thumb{
+    background: rgb(0, 0, 255);
+}
+
+#aboutbodylanguagesimg::-webkit-scrollbar-track{
+    background: rgb(0, 0, 76);
+}
+
+
+#aboutbodysoftwaresimg::-webkit-scrollbar{
+    background: rgb(0, 0, 20);
+    height: 5px;
+}
+
+#aboutbodysoftwaresimg::-webkit-scrollbar-thumb{
+    background: rgb(0, 0, 255);
+}
+
+#aboutbodysoftwaresimg::-webkit-scrollbar-track{
+    background: rgb(0, 0, 76);
+}
+
+
+#aboutbodygamesimg::-webkit-scrollbar{
+    background: rgb(0, 0, 20);
+    height: 5px;
+}
+
+#aboutbodygamesimg::-webkit-scrollbar-thumb{
+    background: rgb(0, 0, 255);
+}
+
+#aboutbodygamesimg::-webkit-scrollbar-track{
+    background: rgb(0, 0, 76);
+}
+
+
+#aboutbodymusicimg::-webkit-scrollbar{
+    background: rgb(0, 0, 20);
+    height: 5px;
+}
+
+#aboutbodymusicimg::-webkit-scrollbar-thumb{
+    background: rgb(0, 0, 255);
+}
+
+#aboutbodymusicimg::-webkit-scrollbar-track{
+    background: rgb(0, 0, 76);
+}
+
+
+#aboutbodylanguagesimg img{
+    height: 50px;
+}
+
+
+#aboutbodysoftwaresimg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#aboutbodysoftwaresimg img{
+    height: 50px;
+}
+
+
+#aboutbodygamesimg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#aboutbodygamesimg img{
+    height: 50px;
+}
+
+#aboutbodymusicimg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#aboutbodymusicimg img{
+    height: 50px;
+}
+
+
+#contact{
+    margin-top: 160px;
+}
+
+
+#contacthead h2{
+    color: rgb(190, 190, 255);
+    font-weight: 100;
+}
+
+
+#contactbodyrow1{
+    display: flex;
+    flex-direction: row;
+}
+
+#instahandle{
+    background: rgb(0, 0, 76);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 17px;
+    width: 50%;
+    margin: 0px 40px;
+    margin-left: 0px;
+}
+
+#instahandle img{
+    height: 100px;
+}
+
+
+#instahandletxt{
+    margin-left: 20px;
+} 
+
+#instahandletxt h2{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 18px;
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+
+#instahandletxt p{
+    margin-top: 0px;
+    color: rgb(190, 190, 255);
+    font-weight: 200;
+    font-size: 15px;
+}
+
+#instahandletxt button{
+    background: #c3c3ff;
+    border: none;
+    padding: 6px 11px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+#githubhandle{
+    background: rgb(0, 0, 76);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 17px;
+    width: 50%;
+    margin: 0px 40px;
+    margin-right: 0px;
+}
+
+#githubhandle img{
+    height: 100px;
+}
+
+#githubhandletxt{
+    margin-left: 20px;
+}
+
+#githubhandletxt h2{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 3px;
+    margin-top:3px;
+}
+
+#githubhandletxt p{
+    margin-top: 0px;
+    color: rgb(190, 190, 255);
+    font-weight: 200;
+    font-size: 15px;
+}
+
+#githubhandletxt button{
+    background: #c3c3ff;
+    border: none;
+    padding: 6px 11px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+#emailcontacthandle{
+    margin-top: 60px;
+    padding: 30px 0px;
+    background: rgb(0, 0, 76);
+    text-align: center;
+}
+
+#emailcontacthandle h2{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+#emailcontacthandle p{
+    margin-top: 4px;
+    color: white;
+}
+
+#emailcontacthandle  button{
+    background: #c3c3ff;
+    border: none;
+    padding: 6px 11px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+#footer{
+    background: rgb(0, 0, 42);
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+#footer p{
+    margin: 0px 0px;
+}

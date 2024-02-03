@@ -1,0 +1,345 @@
+@media (max-width:1110px) and (min-width:0px) {
+    #app{
+        padding: 0px 120px;
+    }
+}
+
+
+@media (max-width:950px) and (min-width:0px) {
+    #app{
+        padding: 0px 90px;
+    }
+}
+
+@media (max-width:800px) and (min-width:0px) {
+    #app{
+        padding: 0px 70px;
+    }
+}
+
+
+@media (max-width:850px) and (min-width:0px) {
+    #instahandle{
+        margin: 0px 15px;
+        margin-left: 0px;
+    }
+    #githubhandle{
+        margin: 0px 15px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:780px) and (min-width:0px) {
+    #instahandle img{
+        height: 65px;
+    }
+    #instahandletxt{
+        margin-left: 25px;
+    }
+    #instahandletxt h2{
+        font-size: 16px;
+    }
+    #instahandletxt p{
+        font-size: 13px;
+    }
+    #instahandletxt button{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    #githubhandle img{
+        height: 65px;
+    }
+    #githubhandletxt{
+        margin-left: 25px;
+    }
+    #githubhandletxt h2{
+        font-size: 16px;
+    }
+    #githubhandletxt p{
+        font-size: 13px;
+    }
+    #githubhandletxt button{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    #emailcontacthandle{
+        margin-top: 30px;
+    }
+    #emailcontacthandle h2{
+        font-size: 21px;
+    }
+    #emailcontacthandle p{
+        font-size: 13px;
+    }
+    #emailcontacthandle button{
+        margin-top: 5px;
+    }
+}
+
+
+@media (max-width:700px) and (min-width:0px) {
+    #app{
+        padding: 0px 70px;
+    }
+
+    #mainintro{
+        margin-top: 85px;
+    }
+
+
+    #mainintroimg img{
+        height: 150px;
+    }
+
+    #mainintrotxt h2{
+        font-size: 32px;
+    }
+
+    #mainintrotxt p:nth-child(1){
+        font-size: 16px;
+    }
+
+    #mainintrotxt p:nth-child(3){
+        font-size: 14px;
+    }
+
+
+    #aboutbodylanguages{
+        margin-top: 30px;
+    }
+    
+    #aboutbodysoftwares{
+        margin-top: 60px;
+    }
+    
+    #aboutbodygames{
+        margin-top: 60px;
+    }
+    
+    
+    #aboutbodymusic{
+        margin-top: 60px;
+    }
+
+
+
+
+    #aboutbodylanguagesimg{
+        overflow-x: scroll;
+        justify-content: start;
+        white-space: nowrap;
+        padding:28px 0px;
+        padding-top: 0px;
+    }
+    #aboutbodylanguagesimg img{
+        margin: 0px 30px;
+    }
+    #aboutbodylanguagesimg img:nth-child(1){
+        margin-left: 0px;
+    }
+    #aboutbodylanguagesimg img:nth-child(7){
+        margin-right: 0px;
+    }
+
+    #aboutbodysoftwaresimg{
+        overflow-x: scroll;
+        justify-content: start;
+        white-space: nowrap;
+        padding:28px 0px;
+        padding-top: 0px;
+    }
+    #aboutbodysoftwaresimg img{
+        margin: 0px 30px;
+    }
+    #aboutbodysoftwaresimg img:nth-child(1){
+        margin-left: 0px;
+    }
+    #aboutbodysoftwaresimg img:nth-child(7){
+        margin-right: 0px;
+    }
+
+    
+    #aboutbodygamesimg{
+        overflow-x: scroll;
+        justify-content: start;
+        white-space: nowrap;
+        padding:28px 0px;
+        padding-top: 0px;
+    }
+    #aboutbodygamesimg img{
+        margin: 0px 30px;
+    }
+    #aboutbodygamesimg img:nth-child(1){
+        margin-left: 0px;
+    }
+    #aboutbodygamesimg img:nth-child(7){
+        margin-right: 0px;
+    }
+
+        
+    #aboutbodymusicimg{
+        overflow-x: scroll;
+        justify-content: start;
+        white-space: nowrap;
+        padding:28px 0px;
+        padding-top: 0px;
+    }
+    #aboutbodymusicimg img{
+        margin: 0px 30px;
+    }
+    #aboutbodymusicimg img:nth-child(1){
+        margin-left: 0px;
+    }
+    #aboutbodymusicimg img:nth-child(7){
+        margin-right: 0px;
+    }
+}
+
+
+
+
+@media (max-width:640px) and (min-width:0px){
+    #app{
+        padding: 0px 65px;
+    }
+    #mainintro{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    #mainintroimg img{
+        height: 170px;
+    }
+    #mainintrotxt{
+        width: 100%;
+    }
+    #suggestlink{
+        left: 9px;
+        bottom: 5px;
+    }
+    #suggestlink a img{
+        height: 25px;
+    }
+    #aboutbodylanguagesimg img{
+        height: 40px;
+    }
+    #aboutbodysoftwaresimg img{
+        height: 40px;
+    }
+    #aboutbodygamesimg img{
+        height: 40px;
+    }
+    #aboutbodymusicimg img{
+        height: 40px;
+    }
+}
+
+
+@media (max-width:620px) and (min-width:0px){
+    #contactbodyrow1{
+        flex-direction: column;
+    }
+    #contactbody{
+        padding: 0px 100px;
+    }
+    #instahandle{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 24px 30px;
+        margin: 10px 0px;
+    }
+    #githubhandle{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 24px 30px;
+        margin: 10px 0px;
+    }
+    #githubhandletxt{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 9px;
+    }
+
+    #instahandletxt{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 9px;
+    }
+
+    #emailcontacthandle h2 {
+        font-size: 18px;
+    }
+    #emailcontacthandle button{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    #emailcontacthandle{
+        margin: 10px 0px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:580px) and (min-width:0px){   
+    #app{
+        padding: 0px 30px;
+    }
+    #about{
+        padding: 0px 15px;
+    }
+    #contact{
+        padding: 0px 15px;
+    }
+    #contactbody{
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width:450px) and (min-width:0px){
+    #contactbody{
+        padding: 0px 20px;
+    }
+    #header {
+        padding: 29px 0px;
+    }
+    #headerlogoimg {
+        height: 36px;
+    }
+    #headerlinks a {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:400px) and (min-width:0px){
+        #app{
+            padding: 0px 30px;
+        }
+        #about{
+            padding: 0px 15px;
+        }
+        #contact{
+            padding: 0px 15px;
+        }
+        #contactbody{
+            padding: 0px 0px;
+        }
+}
+
+
+@media (max-width:340px) and (min-width:0px){
+    #instahandle img{
+        height: 50px;
+    }
+    #githubhandle img{
+        height: 50px;
+    }
+}

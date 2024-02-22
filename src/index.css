@@ -261,6 +261,61 @@ body{
 }
 
 
+#works{
+    margin-top: 160px;
+}
+
+
+#workhead h2{
+    color: rgb(190, 190, 255);
+    font-weight: 100;
+}
+
+
+
+
+.workbox{
+    transition: 0.6s;
+    padding: 20px 0px;
+    padding-left: 20px;
+    border-left: 10px solid rgb(0, 0, 129);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.workbox:hover{
+    background: rgb(0, 0, 65);
+}
+
+.workboximg img{
+    height: 55px;
+}
+
+.workboxtxt{
+    margin-left: 20px;
+}
+
+.workboxtxt h2{
+    color: rgb(190, 190, 255);
+    margin-bottom: 0px;
+}
+
+.workboxtxt p{
+    color: white;
+    margin-top: 3px;
+}
+
+#works a{
+    text-decoration: none;
+}
+
+#workbody{
+    margin-top: 40px;
+}
+
+
+
+
 #contact{
     margin-top: 160px;
 }
@@ -276,6 +331,7 @@ body{
     display: flex;
     flex-direction: row;
 }
+
 
 #instahandle{
     background: rgb(0, 0, 76);

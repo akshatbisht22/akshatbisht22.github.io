@@ -74,6 +74,15 @@
     #emailcontacthandle button{
         margin-top: 5px;
     }
+    .workboximg img{
+        height: 45px;
+    }
+    .workboxtxt h2{
+        font-size: 17px;
+    }
+    .workboxtxt p{
+        font-size: 14px;
+    }
 }
 
 
@@ -304,9 +313,6 @@
 }
 
 @media (max-width:450px) and (min-width:0px){
-    #contactbody{
-        padding: 0px 20px;
-    }
     #header {
         padding: 29px 0px;
     }
@@ -315,6 +321,22 @@
     }
     #headerlinks a {
         font-size: 13px;
+    }
+    .workbox{
+        flex-direction: column;
+        padding: 18px 15px;
+        background: rgb(0, 0, 129);
+    }
+    .workboxtxt p{
+        margin-bottom: 3px;
+    }
+    .workboximg{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+    .workboxtxt{
+        margin-left: 0px;
     }
 }
 
